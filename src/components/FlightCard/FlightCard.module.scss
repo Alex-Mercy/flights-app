@@ -1,0 +1,98 @@
+.flightCard {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.card {
+    width: 500px;
+    background-color: rgb(95, 95, 218);
+    margin: 10px 5px;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+.airlineImage {
+    background: transparent;
+    align-items: center;
+    margin: 3px;
+
+    img {
+         height: 35px;
+     }
+  }
+
+   .cost {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin: 3px 10px;
+
+     span {
+        font-size: 20px;
+     }
+     small {
+        font-size: 10px;
+    }
+   }
+
+   .body {
+    background: white;
+    border-radius: 2px;
+ 
+    .info {
+        color: rgb(95, 95, 218);
+    }
+
+   .line {
+    padding: 5px;
+    margin: 0px 10px;
+    }
+
+
+.underline {
+    height: 1px;
+    margin: 0 5px;
+    background: #e0e0e0;
+ }
+
+ .schedule {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 5px;
+ }
+
+ .dividerLine {
+     height: 2px;
+     background-color: rgb(95, 95, 218);
+ }
+}
+
+.scheduleUnderLine {
+    height: 1px;
+    background: rgb(128, 128, 128);
+    text-align: center;
+    margin: 10px 40px;
+
+    span {
+     position: relative;
+    top: -12px;
+     background-color: white;
+    padding: 5px;
+     color: rgb(255,165,0);
+      font-size: 15px;
+    }
+}
+.button {
+    color: white;
+    text-align: center;
+    background-color: rgb(248, 192, 88);
+    padding: 7px;
+}
