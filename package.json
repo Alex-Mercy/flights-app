@@ -9,14 +9,15 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
-    "node-sass": "^4.14.1",
     "axios": "^0.24.0",
-    "redux-saga": "^1.1.3",
+    "node-sass": "^4.14.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-redux": "^7.2.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "3.2.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {

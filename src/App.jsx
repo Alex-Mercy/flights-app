@@ -7,19 +7,15 @@ function App() {
   return (
     <div className='body'>
       <div>
-      <FilterPanel/>
+        <FilterPanel />
       </div>
       <div>
-      <FlightCard/>
-      <FlightCard/>
-      <button className='showMoreButton'>Показать еще</button>
+        <FlightCard />
+        <FlightCard />
+        <button className='showMoreButton'>Показать еще</button>
       </div>
-      
-
-      
-      
     </div>
-    
+
 
   )
 }
