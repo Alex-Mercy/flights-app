@@ -7,6 +7,7 @@ import { faClock } from '@fortawesome/free-regular-svg-icons'
 function CardBody() {
   return (
     <div className={styles.body}>
+    <div className={styles.dividerLine}></div>
         <div className={styles.line}>
           Москва, ШЕРЕМЕТЬЕВО <span className={styles.info}>(SVO) → </span>  ЛОНДОН, Лондон, Хитроу <span className={styles.info}>(LHR)</span>
         </div>
@@ -48,7 +49,6 @@ function CardBody() {
             {firstSegment.airline.airlineCode}&nbsp;{firstSegment.airline.caption}</span> */}
          Рейс выполняет: BT Air Baltic Corporation A/S
        </div>
-       <div className={styles.dividerLine}></div>
       </div>
   )
 }

@@ -1,15 +1,17 @@
-
 .panel {
-height: 500px;
-width: 300px;
-background: white;
-border-radius: 5px;
-padding: 5px 20px;
-margin: 10px 5px;
+    height: 500px;
+    width: 280px;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 5px;
 
-.heading {
-    font-weight: bold;
-    margin: 12px 0;
-}
+    .heading {
+        font-weight: bold;
+        margin: 20px 0 5px 0 ;
+    }
+    .price {
+        margin-bottom: 10px;
+    }
 
 }

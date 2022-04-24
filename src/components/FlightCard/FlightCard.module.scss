@@ -1,13 +1,14 @@
 .flightCard {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 
 }
 
 
 .card {
-    width: 500px;
-    background-color: rgb(95, 95, 218);
+    width: 600px;
+    background-color: rgb(66, 170, 255);
     margin: 10px 5px;
 }
 
@@ -15,7 +16,7 @@
     display: flex;
     color: white;
     justify-content: space-between;
-    
+
 }
 
 .airlineImage {
@@ -24,55 +25,56 @@
     margin: 3px;
 
     img {
-         height: 35px;
-     }
-  }
+        height: 35px;
+    }
+}
 
-   .cost {
-     display: flex;
-     flex-direction: column;
-     align-items: flex-end;
-     margin: 3px 10px;
+.cost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 3px 10px;
 
-     span {
+    span {
         font-size: 20px;
-     }
-     small {
+    }
+
+    small {
         font-size: 10px;
     }
-   }
+}
 
-   .body {
+.body {
     background: white;
     border-radius: 2px;
- 
+
     .info {
-        color: rgb(95, 95, 218);
+        color: rgb(66, 170, 255);
     }
 
-   .line {
-    padding: 5px;
-    margin: 0px 10px;
+    .line {
+        padding: 5px;
+        margin: 0px 10px;
     }
 
 
-.underline {
-    height: 1px;
-    margin: 0 5px;
-    background: #e0e0e0;
- }
+    .underline {
+        height: 1px;
+        margin: 0 5px;
+        background: #e0e0e0;
+    }
 
- .schedule {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 10px;
-    padding: 5px;
- }
+    .schedule {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 10px;
+        padding: 5px;
+    }
 
- .dividerLine {
-     height: 2px;
-     background-color: rgb(95, 95, 218);
- }
+    .dividerLine {
+        height: 1.5px;
+        background-color: rgb(66, 170, 255);
+    }
 }
 
 .scheduleUnderLine {
@@ -82,17 +84,18 @@
     margin: 10px 40px;
 
     span {
-     position: relative;
-    top: -12px;
-     background-color: white;
-    padding: 5px;
-     color: rgb(255,165,0);
-      font-size: 15px;
+        position: relative;
+        top: -12px;
+        background-color: white;
+        padding: 5px;
+        color: rgb(255, 166, 0);
+        font-size: 15px;
     }
 }
+
 .button {
     color: white;
     text-align: center;
-    background-color: rgb(248, 192, 88);
+    background-color: rgb(255, 191, 148);
     padding: 7px;
 }
