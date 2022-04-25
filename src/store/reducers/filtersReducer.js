@@ -16,7 +16,7 @@ const filtersReducer = (state = initialState, action) => {
         case types.SET_FLIGHTS:
             return {
                 ...state,
-                photos: action.payload,
+                flights: action.payload,
                 isLoaded: true,
             };
         default:

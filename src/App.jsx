@@ -1,22 +1,10 @@
 import React from 'react'
 import './index.css'
-import FilterPanel from './components/FilterPanel/FilterPanel'
-import FlightCard from './components/FlightCard/FlightCard'
+import Flights from './pages/Flights'
 
 function App() {
   return (
-    <div className='body'>
-      <div>
-        <FilterPanel />
-      </div>
-      <div>
-        <FlightCard />
-        <FlightCard />
-        <button className='showMoreButton'>Показать еще</button>
-      </div>
-    </div>
-
-
+    <Flights/>
   )
 }
 

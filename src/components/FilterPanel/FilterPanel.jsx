@@ -8,9 +8,9 @@ export const FilterPanel = () => {
       <div className={styles.heading}>
         Сортировать
       </div>
-      <p><input name="ascPrice" type="radio" /> - по возрастанию цены</p>
-      <p><input name="DescPrice" type="radio" /> - по убыванию цены</p>
-      <p><input name="time" type="radio" /> - по времени в пути</p>
+      <p><input name="order" type="radio" value="ascPrice"/> - по возрастанию цены</p>
+      <p><input name="order" type="radio" value="descPrice"/> - по убыванию цены</p>
+      <p><input name="order" type="radio" value="time"/> - по времени в пути</p>
       <div className={styles.heading}>
         Фильтровать
       </div>
